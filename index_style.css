@@ -2,27 +2,14 @@
     box-sizing: border-box;
 }
 
-#top {
-    width: 100vw;
-    height: 100vh;
-}
-
 body {
     background-color: lightgray;
     margin: 0px;
 }
 
-.name {
-    color: rgb(0, 102, 79);
-    font-size: 60px;
-    margin: 15px;
-    padding: 10px;
-}
-
-
 #header {
     position: fixed;
-    top: 8%;
+    top: 18%;
     left: 37%;
 }
 
