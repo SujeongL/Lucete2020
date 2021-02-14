@@ -6,8 +6,14 @@ body {
     background-color: rgba(0,102,79);
 }
 
+#top {
+    position: fixed;
+    top: 5%;
+    left: 10%;
+}
+
 #header{
-    position: absolute;
+    position: fixed;
     top: 80px;
     left: 23%;
 }
@@ -26,16 +32,16 @@ body {
 }
 
 #date {
-    position: absolute;
-    top: 113%;
-    left: 25%;
+    position: fixed;
+    top: 14%;
+    left: 40%;
     margin: 10px;
     color: white;
     font-size: 70px;
 }
 
 #btn {
-    position: absolute;
+    position: fixed;
     top: 20%;
     left: 17%;
 }
@@ -53,7 +59,7 @@ body {
 }
 
 #total {
-    position: absolute;
+    position: fixed;
     top: 21%;
     left: 33%;
     text-align: center;
