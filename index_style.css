@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+#top {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0px;
+}
+
+#header {
+    position: fixed;
+    top: 2%;
+    left: 37%;
+}
+
+#naver {
+    color: #1EC800;
+    font-size: 190px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#movie {
+    color:  #FFFFFF;
+    font-size: 170px;
+    font-weight: bold;
+}
+
+#date {
+    position: fixed;
+    top: 13%;
+    left: 41%;
+    margin: 10px;
+    color: gray;
+    font-size: 70px;
+}
+
+#btn {
+    position: fixed;
+    top: 19%;
+    left: 32%;
+}
+
+.num {
+    margin: 70px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 120px;
+    height: 120px;
+    background-color:#E35205;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+#total {
+    position: fixed;
+    top: 20%;
+    left: 40%;
+}
+
+.title {
+    margin: 87px;
+    text-align: center;
+    color: grey;
+    font-size: 80px;
+    text-decoration: none;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+img {
+    position: fixed;
+    top: 26%;
+    left: 63%;
+    width: 1000px;
+    height: 1300px;
+    display: none
+}
+
+.title:hover + img {
+    display: block;
+}
