@@ -2,17 +2,17 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: lightgray;
-    margin: 0px;
-}
-
 #top {
     width: 100vw;
     height: 100vh;
-    position: absolute;
-    top: 10%;
-    left: 33%;
+    position: fixed;
+    top: 5%;
+    left: 30%;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0px;
 }
 
 .name {
@@ -23,9 +23,8 @@ body {
 }
 
 
-
 #header {
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 37%;
 }
@@ -44,16 +43,16 @@ body {
 }
 
 #date {
-    position: absolute;
-    top: 110%;
-    left: 25%;
+    position: fixed;
+    top: 13%;
+    left: 40%;
     margin: 10px;
     color: gray;
     font-size: 70px;
 }
 
 #btn {
-    position: absolute;
+    position: fixed;
     top: 19%;
     left: 32%;
 }
@@ -71,7 +70,7 @@ body {
 }
 
 #total {
-    position: absolute;
+    position: fixed;
     top: 20%;
     left: 40%;
 }
